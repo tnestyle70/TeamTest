@@ -5,6 +5,7 @@
 #include "CTimerMgr.h"
 #include "CFrameMgr.h"
 #include "CManagement.h"
+#include "CInputMgr.h".
 
 //namespace Engine
 //{

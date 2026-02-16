@@ -20,6 +20,8 @@ HRESULT CMainApp::Ready_MainApp()
 
     if (FAILED(Ready_Scene(m_pGraphicDev)))
         return E_FAIL;
+    //Å×½ºÆ®
+    CInputMgr::GetInstance()->Initialize();
 
     return S_OK;
 }
