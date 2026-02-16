@@ -6,6 +6,7 @@
 #include "CFrameMgr.h"
 #include "CManagement.h"
 #include "CInputMgr.h".
+#include "CCameraMgr.h"
 
 //namespace Engine
 //{

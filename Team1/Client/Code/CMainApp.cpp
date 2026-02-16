@@ -22,6 +22,7 @@ HRESULT CMainApp::Ready_MainApp()
         return E_FAIL;
     //Å×½ºÆ®
     CInputMgr::GetInstance()->Initialize();
+    CCameraMgr::GetInstance()->Initialize();
 
     return S_OK;
 }

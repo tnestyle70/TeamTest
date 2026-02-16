@@ -61,6 +61,9 @@
     <Filter Include="00. Manager\04. InputMgr">
       <UniqueIdentifier>{1419520d-4371-40da-886e-6110d394233b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="00. Manager\05. CameraMgr">
+      <UniqueIdentifier>{275afe54-ef41-4886-aa65-bbd7eab0ec8a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Code\CGraphicDev.cpp">
@@ -110,6 +113,9 @@
     </ClCompile>
     <ClCompile Include="..\Code\CInputMgr.cpp">
       <Filter>00. Manager\04. InputMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCameraMgr.cpp">
+      <Filter>00. Manager\05. CameraMgr</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -178,6 +184,9 @@
     </ClInclude>
     <ClInclude Include="..\Header\CInputMgr.h">
       <Filter>00. Manager\04. InputMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCameraMgr.h">
+      <Filter>00. Manager\05. CameraMgr</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
